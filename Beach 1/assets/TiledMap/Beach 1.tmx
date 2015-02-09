@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="35" tileheight="35">
+ <tileset firstgid="1" name="dirtCenter" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/dirtCenter.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="5" name="sandHalfLeft" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/sandHalfLeft.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="9" name="sandHalfMid" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/sandHalfMid.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="13" name="sandHalfRight" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/sandHalfRight.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="17" name="sandCliffLeft" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/sandCliffLeft.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="21" name="sandCenter" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/sandCenter.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="25" name="ladder_mid" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/ladder_mid.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="29" name="ladder_top" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/ladder_top.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="33" name="keyYellow" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Items/keyYellow.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="37" name="Menu_3" tilewidth="35" tileheight="35">
+  <image source="Menu_3.png" trans="ff00ff" width="1600" height="1600"/>
+ </tileset>
+ <tileset firstgid="2062" name="signRight" tilewidth="35" tileheight="35">
+  <image source="assets/images/2D PLATFORM/Tiles/signRight.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <layer name="Border" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYAFiZirS1ALMo+aNmjdq3qh5o+ZR1TxqlvcADzUA+Q==
+  </data>
+ </layer>
+ <layer name="Background" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy1zGVSkFEAhtGPUhdggF2I3diFIHa7AAsQE+yOBdiNEna7AEUFW7A7FmAXBtgexx98C9A7c2bee+fOEwT//iRGBEEXutKN7vSgJ73oTR/60o8k+pNMCgNIjajsTbQnMZk00slgCplMZRrTmcFMZpFFNrOZE+qttdexng1sZBOb2cJWtrGdHHawk1zyyKcg1Cu0T3GaMxRRzFnOcZ4LXOQSl7lCCaVc5Vqo99x+wUte8Zo3vOUd7ynjAx/5xGfKqeALX0O9mpFBUItY4qhNHepSj/o0oCGNaEwTmhJPMxIiK3vJdgoDSGUggxjMEIYyjOGMYCSjGM0YxjIu1Muys5nNHOYyj/ksYCGLWMwSlrKM5axgJatCvVw7j3wK2MVu9rCXfeznAAc5xGGOcJRjHA/1SuxSrnKN69zgJre4zR3uco/7POAhj3jMk1Cv3K7gC1/5xnd+8JNff/5GBUEEkUQRTQxVqEq1qMpefNRfzUigOS1oSSta04a2tKM9HehIJzqTGOqNj/ZGIl3oSje604Oe9KI3fehLP5LoTzIp0ZW91fYEJjKJyaSRTgZTyGQq05jODGYyiyyyQ70T9hrWso71bGAjm9jMFrayje3ksIOd5JIX6j21T1LIKU5zhiKKOcs5znOBi1ziMlcooTTUqx4TBM/cn/OCl7ziNW94yzveU8YHPvKJz5RTEeol6dWgJrWIJY7a1KEu9ahPAxrSiMY0oSnxMcF/Ob8BumSljA==
+  </data>
+ </layer>
+ <layer name="Ladder" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALsQBaI5ahoniQQS40g86SBWIaK5g02AACXLwEM
+  </data>
+ </layer>
+ <layer name="Platform" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0UEKgCAQQFE3WVqWZVD3P6l/GWKLAV05Hx6zmxE0RtO0ETpxwcFXprSEGw/eyiybYD/3AnbB3rIZC1ZsOBAF721V731//yWdPcrrNANz
+  </data>
+ </layer>
+ <layer name="Key" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU0AIoArESFc1TBmIVKpo3CkYBpQAAfe8Aiw==
+  </data>
+ </layer>
+ <objectgroup name="Player Start" opacity="0">
+  <object x="35" y="560" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="Player Finish" opacity="0">
+  <object x="525" y="350" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup name="Platform Collision" opacity="0">
+  <object x="0" y="0" width="35" height="700"/>
+  <object x="35" y="630" width="630" height="35"/>
+  <object x="595" y="560" width="35" height="70"/>
+  <object x="665" y="0" width="35" height="700"/>
+  <object x="35" y="0" width="630" height="35"/>
+  <object x="385" y="420" width="280" height="35"/>
+  <object x="105" y="490" width="210" height="35"/>
+  <object x="385" y="455">
+   <polyline points="0,0 35,35 70,35 105,70 140,70 175,105 210,105"/>
+  </object>
+  <object x="910" y="245"/>
+ </objectgroup>
+ <objectgroup name="Ladder Collision" opacity="0">
+  <object x="140" y="455" width="70" height="175"/>
+  <object x="910" y="280"/>
+ </objectgroup>
+ <layer name="Directional Arrow" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIKRC/g4GBj4OahnngDQLEEqmjeYAQBqGABf
+  </data>
+ </layer>
+ <objectgroup name="Key Collision" opacity="0">
+  <object x="525" y="350" width="70" height="70"/>
+  <object x="875" y="315"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="35" tileheight="35" nextobjectid="5">
+ <tileset firstgid="1" name="dirtCenter" tilewidth="35" tileheight="35">
+  <image source="dirtCenter.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="5" name="sandHalfMid" tilewidth="35" tileheight="35">
+  <image source="sandHalfMid.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="9" name="Menu_3" tilewidth="35" tileheight="35">
+  <image source="Menu_3.png" trans="ff00ff" width="1600" height="1600"/>
+ </tileset>
+ <tileset firstgid="2034" name="signRight" tilewidth="35" tileheight="35">
+  <image source="signRight.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="2038" name="door_openMid" tilewidth="35" tileheight="35">
+  <image source="door_openMid.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <tileset firstgid="2042" name="door_openTop" tilewidth="35" tileheight="35">
+  <image source="door_openTop.png" trans="ff00ff" width="70" height="70"/>
+ </tileset>
+ <layer name="Background" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy91MdzEGUAxuEQEjroTZFe0hMQxcoV6TU9ARUrXpVe0xNQKRauSq/pCQh2vUrv6QlYqXYh1Sen7F/AN/PMvDO7s7/LzhcS8mDODW5yi9vc4S6/8wd/8hd/8w//8h/3uE8rbbTTQSdd3R/u1dN4xH6UoTzGMIYzgpGMYjRjGMs4xhNBJFFEE0MsccSTEGhMtV9gGtOZwUxmMZs5zGUe81nAQhJJIpkUUkkjnQwyA4237XdYxnJWsJJVrGYNa1nHejawkSyyySGXPPIpoJCiQOMT+1N2sovd7GEv+9jPAQ5yiMMcoZgSSimjnAoqqaI60PjBPskpTnOGs5zjPBe4yCUuc4Wr1FBLHfU00EgTzbQEGvfs+7TSRjsddNLV/V6oX4RQehNGOH3oSz/6M4CBDGIwQ0J7GhF2JFFEE0MsccSTwAQm8jiTeIInmcxTPM0zPMtzPM+UQCPRTiKZFFJJI50MMlnEYl7kJV5mCa/wKq/xOm/wJkt5K9DIsrPJIZc88imgkCI2sZl3eY/32cJWtrGdD/iQj/iYHYFGsV1CKWWUU0ElVVRzlGN8xnFO8Dlf8CVf8TXf8C3f8X2gUWPXUkc9DTTSRDMtXOM6P/ITP/MLv/IbN7jJLW5zh7uBxtAwdwjDGM4IRjKK0YxhLOMYTwSRRBFNDLHEEU8CE5gY1tOYZk9nBjOZxWzmMJd5zGcBC0kkiWRSSCWNdDLIZBGLA41l9nJWsJJVrGYNa1nHejawkSyyySGXPPIpoJAiNrE50Nhp72I3e9jLPvZzgIMc4jBHKKaEUsoop4JKqqjmKMcCjVP2ac5wlnOc5wIXucRlrnCVGmqpo54GGmmimRaucT3QaLXbaKeDTrq6n4e7QwilN2GE04e+9KM/AxjIIAYzhId4ODzkgZ3/AU7P1cE=
+  </data>
+ </layer>
+ <layer name="Border" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYAFiZhrSIExLMGrHqB2jdozaMWrHqB2D3Q5a17UAV9ABGw==
+  </data>
+ </layer>
+ <layer name="Platform" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGNmAFYjYa0fQCAFKgAH8=
+  </data>
+ </layer>
+ <objectgroup name="Platform Collision">
+  <object id="1" x="35" y="35">
+   <polyline points="0,0 0,595 805,595 805,0 0,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="Player Start">
+  <object id="2" x="70" y="560" width="70" height="70"/>
+  <object id="3" x="1155" y="455"/>
+ </objectgroup>
+ <layer name="Door Open" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMNTBL3YGht/stLXjD9D8vzS24xvQ/O80tuMH0PyfNLZjIAAAcpUIBQ==
+  </data>
+ </layer>
+ <objectgroup name="Player Finish">
+  <object id="4" x="735" y="560" width="70" height="70"/>
+ </objectgroup>
+ <layer name="Directional Arrow" width="25" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMAqoAz6xMzB8ZidNDp8ebOALUO1XHOpxyeHTM1wAANgrC78=
+  </data>
+ </layer>
+</map>
